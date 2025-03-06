@@ -8,6 +8,11 @@ public class App
 {
     public static void main( String[] args )
     {
-        System.out.println( "Hello World!" );
+        int sub = subtract(10, 5);
+        System.out.println( "Subtract 10 - 5 = " + sub );
+    }
+
+    public static int subtract(int a, int b) {
+        return a - b;
     }
 }
